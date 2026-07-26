@@ -15,454 +15,521 @@
 
 </head>
 
-
 <body>
 
 
-<nav class="navbar">
+    <!-- NAVIGATION -->
 
-    <a href="index.html"
-       class="logo">
+    <nav class="navbar">
 
-        PATRICK<span>.</span>
+        <a href="index.html"
+           class="brand">
 
-    </a>
-
-
-    <div class="nav-links">
-
-        <a href="index.html">
-            Home
-        </a>
-
-        <a href="work.html"
-           class="active">
-
-            Work
+            PW<span>.</span>
 
         </a>
 
-        <a href="index.html#experience">
 
-            Experience
+        <div class="nav-links">
 
-        </a>
+            <a href="index.html">
+                Home
+            </a>
 
-        <a href="index.html#contact">
+            <a href="work.html"
+               class="active">
 
-            Contact
+                Work
 
-        </a>
+            </a>
 
-    </div>
+            <a href="index.html#experience">
+                Experience
+            </a>
 
-
-    <a href="Patrick-Walojan-Resume.pdf"
-       target="_blank"
-       class="resume-btn">
-
-        Resume ↗
-
-    </a>
-
-</nav>
-
-
-<header class="work-hero">
-
-    <p class="eyebrow">
-        SELECTED WORK & PROJECTS
-    </p>
-
-
-    <h1>
-        Things I've worked on.
-    </h1>
-
-
-    <p>
-
-        Explore my work across AI data, content creation,
-        web design, IoT, and technology projects.
-
-    </p>
-
-</header>
-
-
-<main>
-
-
-<div class="filters">
-
-    <button class="filter active"
-            data-filter="all">
-
-        All
-
-    </button>
-
-
-    <button class="filter"
-            data-filter="ai">
-
-        AI & Data
-
-    </button>
-
-
-    <button class="filter"
-            data-filter="content">
-
-        Content
-
-    </button>
-
-
-    <button class="filter"
-            data-filter="web">
-
-        Web Design
-
-    </button>
-
-
-    <button class="filter"
-            data-filter="iot">
-
-        IoT & Electronics
-
-    </button>
-
-
-    <button class="filter"
-            data-filter="documents">
-
-        Documents
-
-    </button>
-
-</div>
-
-
-<section class="portfolio-grid">
-
-
-<!-- AI PROJECT -->
-
-<article class="portfolio-item"
-         data-category="ai">
-
-    <div class="portfolio-media">
-
-        <img src="atlas1.png"
-             alt="AI Data Annotation">
-
-    </div>
-
-
-    <div class="portfolio-info">
-
-        <span>
-            AI & DATA
-        </span>
-
-
-        <h2>
-            Video & Image Annotation
-        </h2>
-
-
-        <p>
-
-            Annotation and quality assurance work
-            for AI data projects.
-
-        </p>
-
-
-        <a href="#"
-           class="view-link">
-
-            View Details →
-
-        </a>
-
-    </div>
-
-</article>
-
-
-<!-- EXCEL -->
-
-<article class="portfolio-item"
-         data-category="documents">
-
-    <div class="portfolio-media">
-
-        <img src="excel.png"
-             alt="Excel Data Work">
-
-    </div>
-
-
-    <div class="portfolio-info">
-
-        <span>
-            DATA & ADMINISTRATION
-        </span>
-
-
-        <h2>
-            Data Entry & Reporting
-        </h2>
-
-
-        <p>
-
-            Examples of data organization,
-            spreadsheet work, and reporting.
-
-        </p>
-
-
-        <a href="#"
-           class="view-link">
-
-            View Details →
-
-        </a>
-
-    </div>
-
-</article>
-
-
-<!-- CONTENT -->
-
-<article class="portfolio-item"
-         data-category="content">
-
-    <div class="portfolio-media video-placeholder">
-
-        <div>
-
-            ▶
+            <a href="index.html#contact">
+                Contact
+            </a>
 
         </div>
 
-        <p>
-            VIDEO PROJECT
-        </p>
 
-    </div>
+        <a href="Patrick-Walojan-Resume.pdf"
+           target="_blank"
+           class="resume-button">
 
-
-    <div class="portfolio-info">
-
-        <span>
-            CONTENT & SOCIAL MEDIA
-        </span>
-
-
-        <h2>
-            Short-Form Content
-        </h2>
-
-
-        <p>
-
-            Video projects, social media content,
-            and digital storytelling.
-
-        </p>
-
-
-        <a href="#"
-           class="view-link">
-
-            Watch Video →
+            Resume ↗
 
         </a>
 
+    </nav>
+
+
+    <!-- HEADER -->
+
+    <header class="work-header">
+
+        <p class="eyebrow">
+            SELECTED WORK & PROJECTS
+        </p>
+
+        <h1>
+            Things I've worked on.
+        </h1>
+
+        <p>
+            Explore my work across AI data, content creation,
+            virtual assistance, web design, and technology.
+        </p>
+
+    </header>
+
+
+    <!-- FILTERS -->
+
+    <div class="filters">
+
+        <button class="filter active"
+                data-filter="all">
+
+            All
+
+        </button>
+
+        <button class="filter"
+                data-filter="annotation">
+
+            Data Annotation
+
+        </button>
+
+        <button class="filter"
+                data-filter="assistant">
+
+            Virtual Assistant
+
+        </button>
+
+        <button class="filter"
+                data-filter="content">
+
+            Social Media & Content
+
+        </button>
+
+        <button class="filter"
+                data-filter="web">
+
+            Web Design
+
+        </button>
+
+        <button class="filter"
+                data-filter="iot">
+
+            IoT & Electronics
+
+        </button>
+
     </div>
 
-</article>
+
+    <!-- WORK GRID -->
+
+    <main class="work-grid">
 
 
-<!-- WEB -->
+        <!-- DATA ANNOTATION -->
 
-<article class="portfolio-item"
-         data-category="web">
+        <article class="work-card"
+                 data-category="annotation">
 
-    <div class="portfolio-media web-placeholder">
+            <div class="media image-media">
 
-        <strong>
-            WEB
-        </strong>
+                <img src="images/atlas1.png"
+                     alt="Data annotation work"
+                     class="gallery-image">
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    DATA ANNOTATION
+                </small>
+
+                <h2>
+                    AI Data Annotation & QA
+                </h2>
+
+                <p>
+                    Image and video annotation,
+                    quality review, and auditing work.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXCEL -->
+
+        <article class="work-card"
+                 data-category="assistant">
+
+            <div class="media image-media">
+
+                <img src="images/excel.png"
+                     alt="Excel data work"
+                     class="gallery-image">
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    VIRTUAL ASSISTANCE
+                </small>
+
+                <h2>
+                    Data Entry & Organization
+                </h2>
+
+                <p>
+                    Spreadsheet organization,
+                    data entry, and reporting examples.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CRM -->
+
+        <article class="work-card"
+                 data-category="assistant">
+
+            <div class="media image-media">
+
+                <img src="images/CRM.png"
+                     alt="CRM data management"
+                     class="gallery-image">
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    VIRTUAL ASSISTANCE
+                </small>
+
+                <h2>
+                    CRM Data Management
+                </h2>
+
+                <p>
+                    Record organization,
+                    data cleanup, and administrative support.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- CUSTOMER SUPPORT -->
+
+        <article class="work-card"
+                 data-category="assistant">
+
+            <div class="media image-media">
+
+                <img src="images/med.png"
+                     alt="Healthcare workflow"
+                     class="gallery-image">
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    CUSTOMER SUPPORT
+                </small>
+
+                <h2>
+                    Healthcare Support Workflow
+                </h2>
+
+                <p>
+                    Customer support and healthcare-related
+                    verification experience.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- VIDEO -->
+
+        <article class="work-card"
+                 data-category="content">
+
+            <div class="media video-media">
+
+                <div class="play-button">
+                    ▶
+                </div>
+
+                <span>
+                    VIDEO PROJECT
+                </span>
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    SOCIAL MEDIA & CONTENT
+                </small>
+
+                <h2>
+                    Short-Form Video Content
+                </h2>
+
+                <p>
+                    Social media videos,
+                    visual content, and digital storytelling.
+                </p>
+
+                <a href="#"
+                   class="project-link">
+
+                    Watch Video →
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- WEB DESIGN -->
+
+        <article class="work-card"
+                 data-category="web">
+
+            <div class="media web-media">
+
+                <strong>
+                    WEB
+                </strong>
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    WEB DESIGN
+                </small>
+
+                <h2>
+                    Personal Portfolio Website
+                </h2>
+
+                <p>
+                    A responsive website built with
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <a href="index.html"
+                   class="project-link">
+
+                    Visit Website →
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- IOT -->
+
+        <article class="work-card"
+                 data-category="iot">
+
+            <div class="media iot-media">
+
+                <strong>
+                    ⚡
+                </strong>
+
+                <span>
+                    ESP32 • ARDUINO • IoT
+                </span>
+
+            </div>
+
+            <div class="work-info">
+
+                <small>
+                    IOT & ELECTRONICS
+                </small>
+
+                <h2>
+                    Smart Technology Projects
+                </h2>
+
+                <p>
+                    Microcontrollers, sensors,
+                    electronics, and IoT projects.
+                </p>
+
+            </div>
+
+        </article>
+
+    </main>
+
+
+    <!-- IMAGE MODAL -->
+
+    <div class="image-modal"
+         id="imageModal">
+
+        <button class="close-modal">
+            ×
+        </button>
+
+        <img id="modalImage"
+             src=""
+             alt="Expanded portfolio image">
 
     </div>
 
 
-    <div class="portfolio-info">
+    <footer>
 
         <span>
-            WEB DESIGN
+            © 2026 Patrick Walojan
         </span>
 
-
-        <h2>
-            Personal Portfolio Website
-        </h2>
-
-
-        <p>
-
-            A responsive personal website built
-            using HTML and CSS.
-
-        </p>
-
-
-        <a href="index.html"
-           class="view-link">
-
-            Visit Website →
-
+        <a href="index.html">
+            Back to Home ↑
         </a>
 
-    </div>
-
-</article>
+    </footer>
 
 
-<!-- IOT -->
+    <script>
 
-<article class="portfolio-item"
-         data-category="iot">
+        const filters =
+            document.querySelectorAll(".filter");
 
-    <div class="portfolio-media iot-placeholder">
-
-        <strong>
-            ⚡
-        </strong>
-
-        <p>
-            ESP32 • ARDUINO • IoT
-        </p>
-
-    </div>
+        const cards =
+            document.querySelectorAll(".work-card");
 
 
-    <div class="portfolio-info">
+        filters.forEach(filter => {
 
-        <span>
-            IOT & ELECTRONICS
-        </span>
+            filter.addEventListener("click", () => {
 
+                filters.forEach(button => {
 
-        <h2>
-            Smart Technology Projects
-        </h2>
+                    button.classList.remove("active");
 
+                });
 
-        <p>
-
-            Electronics, microcontrollers,
-            sensors, and smart-device experiments.
-
-        </p>
+                filter.classList.add("active");
 
 
-        <a href="#"
-           class="view-link">
-
-            View Projects →
-
-        </a>
-
-    </div>
-
-</article>
+                const selected =
+                    filter.dataset.filter;
 
 
-</section>
+                cards.forEach(card => {
 
+                    if (
+                        selected === "all" ||
+                        card.dataset.category === selected
+                    ) {
 
-</main>
+                        card.style.display = "block";
 
+                    } else {
 
-<footer>
+                        card.style.display = "none";
 
-    <p>
-        © 2026 Patrick Walojan
-    </p>
+                    }
 
+                });
 
-    <a href="index.html">
-
-        Back to Home ↑
-
-    </a>
-
-</footer>
-
-
-<script>
-
-const filters =
-document.querySelectorAll(".filter");
-
-const items =
-document.querySelectorAll(".portfolio-item");
-
-
-filters.forEach(filter => {
-
-    filter.addEventListener("click", () => {
-
-
-        filters.forEach(button => {
-
-            button.classList.remove("active");
+            });
 
         });
 
 
-        filter.classList.add("active");
+        const modal =
+            document.getElementById("imageModal");
+
+        const modalImage =
+            document.getElementById("modalImage");
+
+        const closeModal =
+            document.querySelector(".close-modal");
+
+        const galleryImages =
+            document.querySelectorAll(".gallery-image");
 
 
-        const category =
-        filter.dataset.filter;
+        galleryImages.forEach(image => {
+
+            image.addEventListener("click", () => {
+
+                modalImage.src =
+                    image.src;
+
+                modalImage.alt =
+                    image.alt;
+
+                modal.classList.add("show");
+
+            });
+
+        });
 
 
-        items.forEach(item => {
+        closeModal.addEventListener("click", () => {
+
+            modal.classList.remove("show");
+
+        });
 
 
-            if (
-                category === "all" ||
-                item.dataset.category === category
-            ) {
+        modal.addEventListener("click", event => {
 
-                item.style.display = "block";
+            if (event.target === modal) {
 
-            }
-
-            else {
-
-                item.style.display = "none";
+                modal.classList.remove("show");
 
             }
 
         });
 
-    });
 
-});
+        document.addEventListener("keydown", event => {
 
-</script>
+            if (event.key === "Escape") {
 
+                modal.classList.remove("show");
+
+            }
+
+        });
+
+    </script>
 
 </body>
-
 </html>
