@@ -128,13 +128,11 @@ img {
 }
 
 .hero h1 {
-    margin-bottom: 2rem;
-
     font-size: clamp(4.5rem, 10vw, 9rem);
 
-    line-height: 0.85;
+    line-height: 0.9;
 
-    letter-spacing: -0.09em;
+    letter-spacing: -0.045em;
 }
 
 .hero h1 span {
@@ -245,13 +243,11 @@ img {
 }
 
 .section h2 {
-    max-width: 750px;
-
     font-size: clamp(2.5rem, 5vw, 5rem);
 
-    line-height: 0.95;
+    line-height: 1;
 
-    letter-spacing: -0.07em;
+    letter-spacing: -0.035em;
 }
 
 
