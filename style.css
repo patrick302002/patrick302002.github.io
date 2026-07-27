@@ -53,6 +53,10 @@ img {
     letter-spacing: -0.05em;
 }
 
+.nav-links {
+    display: none;
+}
+
 .brand span {
     color: #ff5c35;
 }
