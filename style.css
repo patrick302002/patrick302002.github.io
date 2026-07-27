@@ -37,11 +37,12 @@ img {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     padding: 1.2rem 6%;
 
     background: rgba(247, 247, 245, 0.95);
+
     backdrop-filter: blur(12px);
 
     border-bottom: 1px solid #e5e5e5;
@@ -85,16 +86,8 @@ img {
 }
 
 .resume-button {
-    padding: 0.7rem 1.1rem;
-
-    background: #171717;
-    color: white;
-
-    border-radius: 50px;
-
-    font-size: 0.85rem;
-
-    transition: 0.3s ease;
+    position: absolute;
+    right: 6%;
 }
 
 .resume-button:hover {
