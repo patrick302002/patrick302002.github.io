@@ -697,3 +697,131 @@ footer {
     }
 
 }
+
+/* =========================
+   MOBILE MENU BUTTON
+========================= */
+
+.menu-toggle {
+    display: none;
+
+    background: transparent;
+
+    border: none;
+
+    color: #171717;
+
+    cursor: pointer;
+
+    font-size: 1.8rem;
+
+    line-height: 1;
+}
+
+
+/* Hide mobile-only resume on desktop */
+
+.mobile-resume {
+    display: none;
+}
+
+
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+@media (max-width: 800px) {
+
+
+    .navbar {
+        position: sticky;
+
+        top: 0;
+
+        z-index: 1000;
+
+        padding: 1rem 6%;
+    }
+
+
+    .menu-toggle {
+        display: block;
+    }
+
+
+    .resume-button {
+        display: none;
+    }
+
+
+    .nav-links {
+        position: absolute;
+
+        top: 100%;
+
+        left: 0;
+
+        right: 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 0;
+
+        padding: 0;
+
+        background: #f7f7f5;
+
+        border-bottom: 1px solid #e5e5e5;
+
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+
+        opacity: 0;
+
+        visibility: hidden;
+
+        transform: translateY(-10px);
+
+        transition: 0.3s ease;
+    }
+
+
+    .nav-links.active {
+        opacity: 1;
+
+        visibility: visible;
+
+        transform: translateY(0);
+    }
+
+
+    .nav-links a {
+        display: block;
+
+        padding: 1.1rem 6%;
+
+        border-bottom: 1px solid #e5e5e5;
+
+        color: #171717;
+
+        font-size: 1rem;
+    }
+
+
+    .nav-links a:hover {
+        background: #eeeeeb;
+
+        color: #ff5c35;
+    }
+
+
+    .mobile-resume {
+        display: block !important;
+
+        color: #ff5c35 !important;
+
+        font-weight: bold;
+    }
+
+}
