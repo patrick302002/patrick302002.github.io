@@ -51,14 +51,13 @@
                 Contact
             </a>
 
-        </div>
-
-
         <a href="Patrick-Walojan-Resume.pdf"
-           target="_blank"
-           class="resume-button">
+       target="_blank"
+       class="mobile-resume">
 
-            Resume ↗
+        Resume ↗
+
+        </div>
 
         </a>
 
@@ -530,6 +529,53 @@
         });
 
     </script>
+
+    <script>
+
+    const menuToggle =
+        document.getElementById("menuToggle");
+
+    const navLinks =
+        document.getElementById("navLinks");
+
+
+    menuToggle.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
+
+
+        if (
+            navLinks.classList.contains("active")
+        ) {
+
+            menuToggle.textContent = "×";
+
+        } else {
+
+            menuToggle.textContent = "☰";
+
+        }
+
+    });
+
+
+    const navigationLinks =
+        navLinks.querySelectorAll("a");
+
+
+    navigationLinks.forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            navLinks.classList.remove("active");
+
+            menuToggle.textContent = "☰";
+
+        });
+
+    });
+
+</script>
 
 </body>
 </html>
