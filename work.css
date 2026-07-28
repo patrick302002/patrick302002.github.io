@@ -66,12 +66,22 @@ img {
     color: #ff5c35;
 }
 
+.mobile-resume {
+    display: block !important;
+
+    color: #ff5c35 !important;
+
+    font-weight: bold;
+}
+
 .resume-button {
-    display: none;
+    position: absolute;
+    right: 6%;
 }
 
 .resume-button:hover {
     background: #ff5c35;
+    transform: translateY(-2px);
 }
 
 
@@ -411,13 +421,6 @@ footer a {
         height: 320px;
     }
 
-    .mobile-resume {
-    display: block !important;
-
-    color: #ff5c35 !important;
-
-    font-weight: bold;
-}
 
     footer {
         flex-direction: column;
