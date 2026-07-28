@@ -47,10 +47,6 @@ img {
     letter-spacing: -0.05em;
 }
 
-.nav-links {
-    display: none;
-}
-
 .brand span {
     color: #ff5c35;
 }
@@ -73,10 +69,29 @@ img {
 .resume-button {
     position: absolute;
     right: 6%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.75rem 1.3rem;
+
+    border: 1px solid #171717;
+    border-radius: 999px;
+
+    background: transparent;
+
+    color: #171717;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    transition: 0.3s ease;
 }
 
 .resume-button:hover {
-    background: #ff5c35;
+    background: #171717;
+    color: #ffffff;
     transform: translateY(-2px);
 }
 
