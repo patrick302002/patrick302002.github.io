@@ -176,6 +176,10 @@ img {
 
 }
 
+#social-media-content {
+    display: contents;
+}
+
 .work-card {
     overflow: hidden;
 
