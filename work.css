@@ -168,18 +168,6 @@ img {
     gap: 2rem;
 }
 
-@media (max-width: 768px) {
-
-    .work-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-#social-media-content {
-    display: contents;
-}
-
 .work-card {
     overflow: hidden;
 
