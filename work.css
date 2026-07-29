@@ -163,16 +163,17 @@ img {
 /* WORK GRID */
 
 .work-grid {
-    max-width: 1200px;
-
-    margin: auto;
-
-    padding: 0 6% 7rem;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
 
-    gap: 1.5rem;
+@media (max-width: 768px) {
+
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 .work-card {
